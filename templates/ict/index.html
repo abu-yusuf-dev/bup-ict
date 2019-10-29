@@ -1,0 +1,364 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>ICT</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<meta name="description" content="" />
+<meta name="author" content="http://webthemez.com/" />
+<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" />
+
+<link href="{% static 'css/fancybox/jquery.fancybox.css' %}" rel="stylesheet" />
+
+<link href="{% static 'css/jcarousel.html' %}" rel="stylesheet" />
+
+<link href="{% static 'css/flexslider.css' %}" rel="stylesheet" />
+
+<link href="{% static 'js/owl-carousel/owl.carousel.html' %}" rel="stylesheet" />
+
+<link href="{% static 'css/style.css' %}" rel="stylesheet" />
+</head>
+
+<body>
+<div id="wrapper" class="home-page">
+<div class="topbar">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="pull-left hidden-xs">Group 10</p>
+        <p class="pull-right"><i class="fa fa-phone"></i>Tel No. 017********</p>
+      </div>
+    </div>
+  </div>
+</div>
+	<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+
+                    <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'img/logo.png' %}" alt="logo"/></a>
+                </div>
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="{% url 'home' %}">Home</a></li>
+						<li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="/about/#history">History</a></li>
+                            <li><a href="/about/#vision">Vision</a></li>
+                            <li><a href="/achievements">Achievements</a></li>
+                            <li><a href="/resources">Resources</a></li>
+                            <li><a href="/downloads">Downloads</a></li>
+
+                        </ul>
+                        </li>
+                        <li>
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Academic <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/programs">programs</a></li>
+                            <li><a href="/admission">Admission</a></li>
+                            <li><a href="/curriculum">Curriculum</a></li>
+                            <li><a href="/academic_calendar">Academic Calender</a></li>
+
+                        </ul>
+                    	</li>
+                    	<li>
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">People <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="/staff">Staff</a></li>
+							<li><a href="/faculty">Faculty</a></li>
+
+                        </ul>
+
+                    	<li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Research <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/research_groups">Research Groups</a></li>
+                            <li><a href="/publications">Publications</a></li>
+
+
+                        </ul>
+                    	</li>
+                    	<li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Announcement <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/notice">Notice Board</a></li>
+                            <li><a href="/announcement">Announcement</a></li>
+                            <li><a href="/notice_and_events">Notice and Events</a></li>
+                            </ul>
+                    	</li>
+
+						<li><a href="/alumni">Alumni</a></li>
+                        <li><a href="/sitemap">Sitemap</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<div style="height:5px; background:black;">
+
+	</div>
+	<!-- end header -->
+	<section id="banner">
+	 
+	<!-- Slider -->
+        <div id="main-slider" class="flexslider">
+            <ul class="slides">
+              <li>
+              	
+                <img src="{% static 'img/slides/1.jpg' %}" alt="" />
+                <div class="flex-caption">
+                    <h3>Department of ICT</h3> 
+					<p>We Teach Students for Sucessful Future</p> 
+					 
+                </div>
+              </li>
+              <li>
+              	
+                <img src="{% static 'img/slides/2.jpg' %}" alt="" />
+                <div class="flex-caption">
+                    <h3>Department of ICT</h3> 
+					<p>We Teach Students for Sucessful Future</p> 
+					 
+                </div>
+              </li>
+            </ul>
+        </div>
+	<!-- end slider -->
+ 
+	</section> 
+	<section id="call-to-action-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-sm-9">
+					<h3>Welcom to Department of Information and communication Technology</h3>
+					<p>Establishment of a university for the armed forces educational and training institutes was a long felt need. National security, war strategy, medical, engineering and technology related to higher studies are in high demand at present. To keep pace and to be at par with the fast developing world, the national higher studies, research enabling modern knowledge and creating scope for education and studies are the obligations to be fulfilled. In order to expand and integrate the existing educational and training institutes of the armed forces, they were needed to be brought under a single umbrella or authority. Thereby, the establishment of "Bangladesh University of Professionals," (BUP) took place in that process and came in to being as 29th public university of Bangladesh on 05 June 2008. BUP is a unique public university run by the armed forces with upholding the motto "EXCELLENCE THROUGH KNOWLEDGE". The youngest university is confident in furthering the knowledge in the field of national security, technology and modern science to achieve the desired human resources development of the country.</p>
+				</div>
+				<div class="col-md-2 col-sm-3">
+					<a href="#" class="btn btn-primary">Read More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="content">
+	
+	
+	<div class="container">
+	    	
+		<div class="row">
+		<div class="skill-home"> <div class="skill-home-solid clearfix"> 
+		<div class="col-md-3 text-center">
+		<span class="icons c1"><i class="fa fa-user"></i></span> <div class="box-area">
+		<h3>Campus Life</h3> <p>The campus life at BUP is full of opportunities and activities to complement the regular academic undertakings along with various services and facilities.</p></div>
+		</div>
+		<div class="col-md-3 text-center"> 
+		<span class="icons c2"><i class="fa fa-book"></i></span> <div class="box-area">
+		<h3>Admission</h3> <p>Whether you are new to ICT or are looking for more information on activities of ICT, you can find information about admission here.</p></div>
+		</div>
+		<div class="col-md-3 text-center"> 
+		<span class="icons c3"><i class="fa fa-list-alt"></i></span> <div class="box-area">
+		<h3>Notice Board</h3> 
+		{% for notice in notices %}
+			<ul>
+				<li><p>{{ notice.name }}</p></li>
+			</ul>
+
+
+		{% endfor %}
+		</div>
+		</div>
+		<div class="col-md-3 text-center"> 
+		<span class="icons c4"><i class="fa fa-globe"></i></span> <div class="box-area">
+		<h3>News and Events</h3> 
+		{% for event in events %}
+			<ul>
+				<li>{{ event.name }}</li>
+			</ul>
+
+
+		{% endfor %}
+		</div></div>
+		</div></div>
+		</div> 
+	 
+
+	</div>
+	</section>
+	
+	<section class="section-padding gray-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-title text-center">
+						<h2>Our Institute</h2>
+						<p>National security, war strategy, medical, engineering and technology related to higher studies are in high demand at present. To keep pace and to be at par with the fast developing world, the national higher studies, research enabling modern knowledge and creating scope for education and studies are the obligations to be fulfilled. In order to expand and integrate the existing educational and training institutes of the armed forces, they were needed to be brought under a single umbrella or authority. Thereby, the establishment of "Bangladesh University of Professionals," (BUP) took place in that process and came in to being as 29th public university of Bangladesh on 05 June 2008.</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>	  
+	
+	<div class="about home-about">
+				<div class="container">
+						
+						<div class="row">
+							<div class="col-md-4">
+								<!-- Heading and para -->
+								<div class="block-heading-two">
+									<h3><span>Mission</span></h3>
+								</div>
+								<p>To develop the civil and military human capital through advanced education and research to respond to the knowledge-based society of the contemporary world.</p>
+							</div>
+							<div class="col-md-4">
+								<div class="block-heading-two">
+									<h3><span>Latest News</span></h3>
+								</div>		
+								<!-- Accordion starts -->
+								<div class="panel-group" id="accordion-alt3">
+								 <!-- Panel. Use "panel-XXX" class for different colors. Replace "XXX" with color. -->
+								 {% for notice in notices %}
+									
+
+								
+								  <div class="panel">	
+									<!-- Panel heading -->
+									 <div class="panel-heading">
+										<h4 class="panel-title">
+										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseOne-alt3">
+											<i class="fa fa-angle-right"></i> {{ notice.name }}
+										  </a>
+										</h4>
+									 </div>
+									 <div id="collapseOne-alt3" class="panel-collapse collapse">
+										<!-- Panel body -->
+										<div class="panel-body">
+										  {{ notice.description }}
+										</div>
+									 </div>
+								  </div>
+								</div>
+								  {% endfor %}
+								<!-- Accordion ends -->
+								
+							</div>
+							
+							<div class="col-md-4">
+								<div class="timetable">
+								  <h3><span class="fa fa-clock-o"></span>Class Time</h3>
+								  <hr> 
+								  <dl>
+									<dt>Sunday - Thursday:</dt>
+									<dd>9am-3pm</dd>
+								  </dl>
+								  <dl>
+									<dt>Saturday:</dt>
+									<dd>9am-1pm</dd>
+								  </dl>  
+								  <h4>Language Classes</h4>
+								  <dl>
+									<dt>Saturday:</dt>
+									<dd>2pm-5pm</dd>
+								  </dl>  
+								</div>
+							</div>
+							
+						</div>
+						
+						 						
+						 
+						<br>
+					 
+					  </div>
+						
+					</div>
+					
+					
+
+	<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Contact us</h5>
+					<address>
+					<strong>Mirpur Cantonment, </strong><br>
+					Dhaka- 1216.<br>
+					 </address>
+					<p>
+						<i class="icon-phone"></i>  88-02-8000368<br>
+						<i class="icon-envelope-alt"></i>  info@bup-ict.edu.bd
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Quick Links</h5>
+					<ul class="link-list">
+						<li><a href="#">Latest Events</a></li>
+						<li><a href="#">Terms and conditions</a></li>
+						<li><a href="#">Privacy policy</a></li>
+						<li><a href="#">Career</a></li>
+						<li><a href="#">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="copyright">
+						<p>
+							<span> Copyright ©BUP-ICT 2018 All Rights Reserved </span>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<ul class="social-network">
+						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/jquery.fancybox.pack.js' %}"></script>
+<script src="{% static 'js/jquery.fancybox-media.js' %}"></script>  
+<script src="{% static 'js/jquery.flexslider.js' %}"></script>
+<script src="{% static 'js/animate.js' %}"></script>
+<!-- Vendor Scripts -->
+<script src="{% static 'js/modernizr.custom.js' %}"></script>
+<script src="{% static 'js/jquery.isotope.min.js' %}"></script>
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'js/animate.js' %}"></script>
+<script src="{% static 'js/custom.js' %}"></script>
+<script src="{% static 'js/owl-carousel/owl.carousel-2.html' %}"></script>
+</body>
+
+<!-- Mirrored from webthemez.com/demo/skills-best-education-bootstrap-html-website-template/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Oct 2018 04:15:57 GMT -->
+</html>

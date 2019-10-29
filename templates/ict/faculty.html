@@ -1,0 +1,45 @@
+{% extends 'ict/base.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Faculty Members</title>
+</head>
+<body>
+{% block content %}
+
+
+{% block faculty %}
+<div style="margin-left:200px; margin-top:50px; margin-right:100px;">
+    <h1 style="text-align:center;text-decoration:underline;color:blue;">All the faculty members</h1>
+
+ {% for fac in faculty_list %}
+
+
+<ul>
+<div style="border:green solid 2px;font-size: 20px;margin-right:200px;">
+     <!--{{forloop.counter}}-->
+     <p style="float:right;margin-right:20px;margin-top:5px;"> <img src="{{MEDIA_URL}}{{fac.photo.url}}" height="200" width="180"> </p>
+     {{fac.id}}. <p>Faculty Name: {{fac.name}}</p>
+
+      <p> Faculty Designation: {{fac.designation}} </p>
+      <p> Faculty Contact: {{fac.contact}} </p>
+      <p> Faculty Room_no: {{fac.room_no}} </p>
+    <!--<img src="{{ obj1.photo.url }}" alt="">-->
+
+
+
+      <p> Faculty Research_Interest:  {{fac.research_interest}} </p>
+      <p> Faculty Courses: {{fac.courses}} </p>
+     </div>
+</ul>
+        {% endfor %}
+
+</div>
+    {% endblock faculty %}
+
+{% endblock %}
+</body>
+</html>
